@@ -53,7 +53,7 @@ CPM_AddModule("glew"
 # ++ EXTERNAL-MODULE: Google Test
 CPM_AddModule("google_test"
   GIT_REPOSITORY "https://github.com/CIBC-Internal/cpm-google-test"
-  GIT_TAG "1.0.2"
+  GIT_TAG "origin/master"
   USE_EXISTING_VER TRUE)
 
 CPM_Finish()
